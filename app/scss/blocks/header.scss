@@ -8,6 +8,8 @@
   &__menu {
     display: flex;
     gap: 30px;
+    flex-grow: 1;
+    flex-basis: 0;
   }
 
   &__link {
@@ -39,6 +41,10 @@
   }
 
   &__phone {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -53,6 +59,5 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
