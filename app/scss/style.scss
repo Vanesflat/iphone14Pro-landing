@@ -37,6 +37,21 @@ ul {
   margin: 0 auto;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #717171;
+}
 
 @import './blocks/header.scss';
 @import './blocks/headline.scss';
+@import './blocks/news.scss';
