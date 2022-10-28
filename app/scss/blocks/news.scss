@@ -1,0 +1,19 @@
+.news {
+  margin-bottom: 150px;
+
+  &__description {
+    max-width: 560px;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+
+    &--bold {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+
+  &__img {}
+}
