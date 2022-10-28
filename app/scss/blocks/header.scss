@@ -1,0 +1,58 @@
+.header {
+  background-color: #0a0a0a;
+  padding: 32px 0;
+  color: #717171;
+  font-size: 24px;
+  line-height: 29px;
+
+  &__menu {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__link {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+
+    &:hover {
+      color: #9b9b9b;
+    }
+  }
+
+  &__logo {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+    }
+  }
+
+  &__phone {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+
+    &:hover {
+      color: #9b9b9b;
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
