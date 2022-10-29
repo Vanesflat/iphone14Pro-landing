@@ -1,0 +1,23 @@
+.colors {
+  margin-bottom: 150px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    text-align: center;
+
+    img {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
