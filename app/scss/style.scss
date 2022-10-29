@@ -40,6 +40,7 @@ ul {
 .wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .title {
@@ -54,4 +55,5 @@ ul {
 
 @import './blocks/header.scss';
 @import './blocks/headline.scss';
-@import './blocks/news.scss';
+@import './blocks/new.scss';
+@import './blocks/colors.scss';
