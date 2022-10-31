@@ -51,9 +51,15 @@ ul {
   font-size: 32px;
   line-height: 39px;
   color: #717171;
+
+  &--white {
+    color: #ffffff;
+  }
 }
 
 @import './blocks/header.scss';
 @import './blocks/headline.scss';
 @import './blocks/new.scss';
 @import './blocks/colors.scss';
+@import './blocks/order.scss';
+@import './blocks/footer.scss';
