@@ -1,0 +1,44 @@
+.footer {
+  background-color: #0a0a0a;
+  padding: 32px 0;
+  color: #717171;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    flex-grow: 1;
+    flex-basis: 0;
+
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+
+    &:hover {
+      color: #9b9b9b;
+    }
+  }
+
+  &__phone {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+
+    font-size: 24px;
+    line-height: 29px;
+
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+
+    &:hover {
+      color: #9b9b9b;
+    }
+  }
+}
