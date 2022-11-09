@@ -1,0 +1,241 @@
+@media (max-width: 1100px) {
+  .colors__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .colors__item img {
+    width: 100%;
+  }
+
+  .order {
+    background-color: #574b63;
+  }
+
+  .order__wrapper {
+    display: block;
+  }
+
+  .order__img {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .header__btn {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .btn__line {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #717171;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+  }
+
+  .btn__line:nth-child(1) {
+    top: 0;
+  }
+
+  .btn__line:nth-child(2) {
+    top: 20px;
+  }
+
+  .btn__line:nth-child(3) {
+    top: 20px;
+  }
+
+  .btn__line:nth-child(4) {
+    top: 40px;
+  }
+
+  .header__menu--open .btn__line:nth-child(1) {
+    opacity: 0;
+  }
+
+  .header__menu--open .btn__line:nth-child(2) {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+  }
+
+  .header__menu--open .btn__line:nth-child(3) {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+  }
+
+  .header__menu--open .btn__line:nth-child(4) {
+    opacity: 0;
+  }
+
+  .header__menu--open .header__phone {
+    display: none;
+  }
+
+  .header__btn:hover .btn__line {
+    background-color: #9b9b9b;
+  }
+
+  .header__menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    line-height: 60px;
+    z-index: 10;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+  }
+
+  .header__menu--open .header__menu {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+
+  .header__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .header__phone {
+    position: absolute;
+    right: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .headline {
+    margin-bottom: 30px;
+  }
+
+  .new {
+    margin-bottom: 30px;
+  }
+
+  .new__description {
+    margin: 0 auto;
+  }
+
+  .new__text {
+    text-align: center;
+  }
+
+  .new__img {
+    display: none;
+  }
+
+  .order__ad-form {
+    padding: 70px 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__phone {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .headline__title {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  .headline__btn {
+    padding: 22px 50px 19px;
+  }
+
+  .title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .colors {
+    margin-bottom: 85px;
+  }
+
+  .colors__list {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer__link,
+  .footer__phone {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer__logo {
+    order: 1;
+  }
+}
+
+@media (max-width: 460px) {
+  .header__phone {
+    display: none;
+  }
+
+  .header__link--mobile {
+    display: block;
+    font-size: 36px;
+  }
+
+  .title {
+    font-size: 23px;
+    line-height: 23px;
+  }
+
+  .order__ad-form {
+    padding: 50px 10px;
+  }
+
+  .order__description {
+    font-size: 12px;
+  }
+
+  .order__btn {
+    padding: 16px 40px;
+  }
+}

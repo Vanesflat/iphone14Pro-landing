@@ -11,26 +11,38 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
   <header class="header">
     <div class="container">
       <nav class="nav">
+        <button class="header__btn" type="button">
+          <span class="btn__line"></span>
+          <span class="btn__line"></span>
+          <span class="btn__line"></span>
+          <span class="btn__line"></span>
+        </button>
         <ul class="header__menu">
           <li class="header__item">
-            <a class="header__link" href="#">
+            <a class="header__link" href="#new">
               Что нового
             </a>
           </li>
           <li class="header__item">
-            <a class="header__link" href="#">
+            <a class="header__link" href="#colors">
               Цвет
             </a>
           </li>
           <li class="header__item">
-            <a class="header__link" href="#">
+            <a class="header__link" href="#order">
               Заказать
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link header__link--mobile" href="tel:380504565656">
+              +38 050-456-56-56
             </a>
           </li>
         </ul>
@@ -56,7 +68,7 @@
       </div>
     </section>
 
-    <section class="new">
+    <section class="new" id="new">
       <div class="container">
         <h2 class="title">что нового</h2>
         <div class="wrapper">
@@ -78,7 +90,7 @@
       </div>
     </section>
 
-    <section class="colors">
+    <section class="colors" id="colors">
       <div class="container">
         <h2 class="title">выбери свой цвет</h2>
         <ul class="colors__list">
@@ -106,7 +118,7 @@
       </div>
     </section>
 
-    <section class="order">
+    <section class="order" id="order">
       <div class="container">
         <div class="order__wrapper">
           <div class="order__ad-form">
